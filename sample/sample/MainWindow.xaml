@@ -10,14 +10,18 @@
         <TabControl Margin="0,47,0,0">
             <TabItem Header="TabItem">
                 <Grid Background="#FFE5E5E5">
-                    <ListView Margin="0,0,397,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="89*"/>
+                        <ColumnDefinition Width="705*"/>
+                    </Grid.ColumnDefinitions>
+                    <ListView Margin="0,0,397,10" Grid.ColumnSpan="2">
                         <ListView.View>
                             <GridView>
                                 <GridViewColumn/>
                             </GridView>
                         </ListView.View>
                     </ListView>
-                    <ListView Margin="397,0,0,0">
+                    <ListView Margin="308,0,0,10" Grid.Column="1">
                         <ListView.View>
                             <GridView>
                                 <GridViewColumn/>
@@ -28,8 +32,8 @@
             </TabItem>
             <TabItem Header="TabItem">
                 <Grid Background="#FFE5E5E5">
-                    <TextBox AcceptsReturn="True" HorizontalAlignment="Left" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Center" Width="397" Height="359"/>
-                    <TextBox AcceptsReturn="True" HorizontalAlignment="Left" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Center" Width="397" Height="359" Margin="397,0,0,0"/>
+                    <TextBox AcceptsReturn="True" HorizontalAlignment="Left" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="397" Height="349"/>
+                    <TextBox AcceptsReturn="True" HorizontalAlignment="Left" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="397" Height="349" Margin="397,0,0,0"/>
                 </Grid>
             </TabItem>
         </TabControl>
