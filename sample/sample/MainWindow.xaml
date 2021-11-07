@@ -28,8 +28,8 @@
             </TabItem>
             <TabItem Header="TabItem">
                 <Grid Background="#FFE5E5E5">
-                    <TextBox HorizontalAlignment="Left" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Center" Width="397" Height="359"/>
-                    <TextBox HorizontalAlignment="Left" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Center" Width="397" Height="359" Margin="397,0,0,0"/>
+                    <TextBox AcceptsReturn="True" HorizontalAlignment="Left" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Center" Width="397" Height="359"/>
+                    <TextBox AcceptsReturn="True" HorizontalAlignment="Left" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Center" Width="397" Height="359" Margin="397,0,0,0"/>
                 </Grid>
             </TabItem>
         </TabControl>
