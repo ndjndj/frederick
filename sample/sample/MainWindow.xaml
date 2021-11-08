@@ -14,14 +14,14 @@
                         <ColumnDefinition Width="89*"/>
                         <ColumnDefinition Width="705*"/>
                     </Grid.ColumnDefinitions>
-                    <ListView Margin="0,0,397,10" Grid.ColumnSpan="2">
+                    <ListView Margin="0,0,0,10" Grid.ColumnSpan="2" RenderTransformOrigin="1,0.5">
                         <ListView.View>
                             <GridView>
                                 <GridViewColumn/>
                             </GridView>
                         </ListView.View>
                     </ListView>
-                    <ListView Margin="308,0,0,10" Grid.Column="1">
+                    <ListView Margin="300,0,0,10" Grid.Column="1">
                         <ListView.View>
                             <GridView>
                                 <GridViewColumn/>
@@ -32,8 +32,8 @@
             </TabItem>
             <TabItem Header="TabItem">
                 <Grid Background="#FFE5E5E5">
-                    <TextBox AcceptsReturn="True" HorizontalAlignment="Left" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="397" Height="349"/>
-                    <TextBox AcceptsReturn="True" HorizontalAlignment="Left" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="397" Height="349" Margin="397,0,0,0"/>
+                    <TextBox AcceptsReturn="True" HorizontalAlignment="Left" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="380" Height="350"/>
+                    <TextBox AcceptsReturn="True" HorizontalAlignment="Left" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="380" Height="350" Margin="398,0,0,0"/>
                 </Grid>
             </TabItem>
         </TabControl>
